@@ -438,5 +438,9 @@
     },
     "ultim_resum": "2026-09-30",
     "ultima_execucio": "2026-09-30T22:45+00:00"
+  },
+  "fast": {
+    "avisos_enviats": [],
+    "toc": {}
   }
 }
