@@ -18,7 +18,7 @@
       "venda":  [ {"preu": 500, "tipus": "setmanal"}, {"preu": 420, "tipus": "diari"} ]
     },
 
-    "BTC":    {"id": "bitcoin"},
+    "BTC":    {"id": "bitcoin", "inici_onada": "2026-07-01", "venda": [{"preu": 134943, "tipus": "setmanal"}, {"preu": 279716, "tipus": "setmanal"}, {"preu": 556464, "tipus": "setmanal"}, {"preu": 726029, "tipus": "setmanal"}]},
     "ETH":    {"id": "ethereum"},
     "SOL":    {"id": "solana"},
     "LINK":   {"id": "chainlink"},
