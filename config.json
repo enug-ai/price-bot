@@ -1,0 +1,55 @@
+{
+  "_ajuda": [
+    "Cada token: \"TICKER\": {\"id\": \"id-de-coingecko\"}. L'id és l'últim tros de l'enllaç de CoinGecko.",
+    "inici_onada: data (AAAA-MM-DD) de la base de la pujada. Sense data: màxim dels últims 12 mesos.",
+    "descomptes: % de caiguda des del màxim de l'onada (tancament diari). Sense: descomptes_per_defecte.",
+    "compra / venda: llista de preus objectiu. tipus = toc (al moment), diari o setmanal (per tancament).",
+    "Les claus que comencen per _ s'ignoren. Mira _EXEMPLE per veure-ho tot junt."
+  ],
+
+  "descomptes_per_defecte": [20, 40, 50, 60],
+
+  "tokens": {
+    "_EXEMPLE": {
+      "id": "aave",
+      "inici_onada": "2025-04-07",
+      "descomptes": [25, 40, 60],
+      "compra": [ {"preu": 150, "tipus": "toc"} ],
+      "venda":  [ {"preu": 500, "tipus": "setmanal"}, {"preu": 420, "tipus": "diari"} ]
+    },
+
+    "BTC":    {"id": "bitcoin"},
+    "ETH":    {"id": "ethereum"},
+    "SOL":    {"id": "solana"},
+    "LINK":   {"id": "chainlink"},
+    "AAVE":   {"id": "aave"},
+    "NEAR":   {"id": "near"},
+    "RENDER": {"id": "render-token"},
+    "ONDO":   {"id": "ondo-finance"},
+    "COMP":   {"id": "compound-governance-token"},
+    "TRB":    {"id": "tellor"},
+    "AVAX":   {"id": "avalanche-2"},
+    "HYPE":   {"id": "hyperliquid"},
+    "PEPE":   {"id": "pepe"},
+    "STONK":  {"id": "stonk-2"},
+    "QNT":    {"id": "quant-network"},
+    "TAO":    {"id": "bittensor"},
+    "INJ":    {"id": "injective-protocol"},
+    "UNI":    {"id": "uniswap"},
+    "PENDLE": {"id": "pendle"},
+    "AERO":   {"id": "aerodrome-finance"},
+    "SYRUP":  {"id": "maple-finance"},
+    "ZEC":    {"id": "zcash"},
+    "PUMP":   {"id": "pump-fun"},
+    "MORPHO": {"id": "morpho"},
+    "LIT":    {"id": "lighter"},
+    "RAY":    {"id": "raydium"},
+    "DRV":    {"id": "derive"},
+    "KNTQ":   {"id": "kinetiq"},
+    "META":   {"id": "meta-2"},
+    "BNB":    {"id": "binancecoin"},
+    "VVV":    {"id": "venice-token"},
+    "BP":     {"id": "backpack"},
+    "KMNO":   {"id": "kamino"}
+  }
+}
