@@ -33,7 +33,7 @@
     "HYPE ULTIM IMPULS":   {"id": "hyperliquid", "inici_onada": "2026-09-15"},
     "PEPE":   {"id": "pepe", "inici_onada": "2026-07-01"},
     "STONK":  {"id": "stonk-3", "inici_onada": "2026-09-14"},
-    "QNT":    {"id": "quant-network". "inici_onada": "2024-08-06"},
+    "QNT":    {"id": "quant-network", "inici_onada": "2024-08-06"},
     "TAO":    {"id": "bittensor", "inici_onada": "2026-02-06"},
     "INJ":    {"id": "injective-protocol", "inici_onada": "2026-02-06"},
     "UNI":    {"id": "uniswap", "inici_onada": "2026-06-06"},
@@ -53,6 +53,8 @@
     "BNB":    {"id": "binancecoin", "inici_onada": "2026-07-01"},
     "VVV":    {"id": "venice-token", "inici_onada": "2025-12-08"},
     "BP":     {"id": "backpack", "inici_onada": "2026-05-26"},
-    "KMNO":   {"id": "kamino", "inici_onada": "2026-06-06"},
+    "KMNO":   {"id": "kamino", "inici_onada": "2026-06-06"}
+  }
+}
   }
 }
