@@ -1,0 +1,52 @@
+name: price-bot
+
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"   # cada 15 min: objectius de tipus "toc"
+    - cron: "17 1 * * *"           # cada dia 01:17 UTC: descomptes i tancaments
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Què vols executar"
+        type: choice
+        options: [daily, fast]
+        default: daily
+
+permissions:
+  contents: write
+
+concurrency:
+  group: price-bot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Executar bot
+        run: python bot.py "$MODE"
+        env:
+          MODE: ${{ github.event_name == 'workflow_dispatch' && inputs.mode || (github.event.schedule == '17 1 * * *' && 'daily' || 'fast') }}
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT: ${{ secrets.TG_CHAT }}
+          CG_API_KEY: ${{ secrets.CG_API_KEY }}
+
+      - name: Guardar estat
+        run: |
+          git config user.name "price-bot"
+          git config user.email "price-bot@users.noreply.github.com"
+          git add state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "update state"
+            git pull --rebase
+            git push
+          fi
