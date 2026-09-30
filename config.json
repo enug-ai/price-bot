@@ -42,7 +42,6 @@
     "SYRUP": {"id": "syrup", "inici_onada": "2026-06-26"},
     "ZEC CICLE COMPLET": {"id": "zcash", "inici_onada": "2025-04-05"},
     "ZEC ULTIM IMPULS": {"id": "zcash", "inici_onada": "2026-09-14"},
-    "ZEC PROVA": {"id": "zcash", "venda": [{"preu": 1300, "tipus": "toc"}]},
     "PUMP": {"id": "pump-fun", "inici_onada": "2026-06-26"},
     "MORPHO CICLE COMPLET": {"id": "morpho", "inici_onada": "2025-04-16"},
     "MORPHO ULTIM IMPULS": {"id": "morpho", "inici_onada": "2026-02-04"},
