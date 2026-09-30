@@ -1,67 +1,131 @@
 {
   "daily": {
-    "tancaments": {},
+    "tancaments": {
+      "BTC|venda|134943.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "BTC|venda|279716.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "BTC|venda|556464.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "BTC|venda|726029.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "ETH|venda|12602.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "ETH|venda|20361.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "ETH|venda|40709.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "ETH|venda|4868.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "ETH|venda|53177.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "ETH|venda|5996.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "ETH|venda|7822.0|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "NEAR|venda|10.53|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "NEAR|venda|16.44|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "NEAR|venda|31.97|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "NEAR|venda|41.49|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "NEAR|venda|6.45|diari": {
+        "eval": "2026-09-29",
+        "fired": false
+      },
+      "NEAR|venda|6.88|setmanal": {
+        "eval": "2026-09-27",
+        "fired": false
+      },
+      "NEAR|venda|7.57|diari": {
+        "eval": "2026-09-29",
+        "fired": false
+      },
+      "NEAR|venda|8.7|diari": {
+        "eval": "2026-09-29",
+        "fired": false
+      }
+    },
     "tokens": {
       "AAVE": {
-        "fired": [
-          20.0,
-          40.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 297.5970961340708,
-        "peak_date": "2025-10-06"
+        "onada": "2026-06-06",
+        "peak": 165.23613592480058,
+        "peak_date": "2026-09-29"
       },
       "AERO": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 1.1899471611906287,
-        "peak_date": "2025-10-02"
+        "onada": "2026-02-11",
+        "peak": 0.8656893259810771,
+        "peak_date": "2026-09-26"
       },
       "AVAX": {
-        "fired": [
-          20.0,
-          40.0,
-          50.0,
-          60.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 31.368161439331377,
-        "peak_date": "2025-10-03"
+        "onada": "2026-06-19",
+        "peak": 11.434247955619284,
+        "peak_date": "2026-09-29"
       },
       "BNB": {
-        "fired": [
-          20.0,
-          40.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 1307.7582691896887,
-        "peak_date": "2025-10-08"
+        "onada": "2026-07-01",
+        "peak": 799.1366632487325,
+        "peak_date": "2026-09-21"
       },
       "BP": {
         "fired": [],
@@ -71,38 +135,33 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2026-05-26",
         "peak": 1.3498691201423716,
         "peak_date": "2026-09-25"
       },
       "BTC": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 124739.81088811433,
-        "peak_date": "2025-10-06"
+        "onada": "2026-07-01",
+        "peak": 86596.74004249526,
+        "peak_date": "2026-09-21"
       },
       "COMP": {
-        "fired": [
-          20.0,
-          40.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 43.9690419075542,
-        "peak_date": "2025-10-02"
+        "onada": "2026-02-06",
+        "peak": 26.229715536458997,
+        "peak_date": "2026-04-17"
       },
       "DRV": {
         "fired": [
@@ -114,26 +173,11 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2025-04-07",
         "peak": 0.4896710203739547,
         "peak_date": "2026-09-23"
       },
       "ETH": {
-        "fired": [
-          20.0,
-          40.0
-        ],
-        "nivells": [
-          20.0,
-          40.0,
-          50.0,
-          60.0
-        ],
-        "onada": null,
-        "peak": 4690.837856263482,
-        "peak_date": "2025-10-06"
-      },
-      "HYPE": {
         "fired": [],
         "nivells": [
           20.0,
@@ -141,39 +185,57 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2026-06-06",
+        "peak": 2775.1686826711957,
+        "peak_date": "2026-09-21"
+      },
+      "HYPE CICLE COMPLET": {
+        "fired": [],
+        "nivells": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "onada": "2025-04-07",
+        "peak": 97.19050715676083,
+        "peak_date": "2026-09-22"
+      },
+      "HYPE ULTIM IMPULS": {
+        "fired": [],
+        "nivells": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "onada": "2026-09-15",
         "peak": 97.19050715676083,
         "peak_date": "2026-09-22"
       },
       "INJ": {
-        "fired": [
-          20.0,
-          40.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 13.406740229337029,
-        "peak_date": "2025-10-03"
+        "onada": "2026-02-06",
+        "peak": 8.181778665712287,
+        "peak_date": "2026-09-25"
       },
       "KMNO": {
-        "fired": [
-          20.0,
-          40.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 0.0835269917252242,
-        "peak_date": "2025-10-05"
+        "onada": "2026-06-06",
+        "peak": 0.050058675209738605,
+        "peak_date": "2026-09-26"
       },
       "KNTQ": {
         "fired": [
@@ -185,23 +247,21 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2025-12-18",
         "peak": 0.36661983905674433,
         "peak_date": "2026-06-01"
       },
       "LINK": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 23.457256881766217,
-        "peak_date": "2025-10-06"
+        "onada": "2026-06-06",
+        "peak": 15.439985573182222,
+        "peak_date": "2026-09-28"
       },
       "LIT": {
         "fired": [
@@ -213,26 +273,11 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2026-04-01",
         "peak": 5.315233417473329,
         "peak_date": "2026-09-23"
       },
       "META": {
-        "fired": [
-          20.0,
-          40.0
-        ],
-        "nivells": [
-          20.0,
-          40.0,
-          50.0,
-          60.0
-        ],
-        "onada": null,
-        "peak": 10495.666064440484,
-        "peak_date": "2026-01-04"
-      },
-      "MORPHO": {
         "fired": [],
         "nivells": [
           20.0,
@@ -240,7 +285,31 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2026-04-02",
+        "peak": 6799.9123500853175,
+        "peak_date": "2026-08-27"
+      },
+      "MORPHO CICLE COMPLET": {
+        "fired": [],
+        "nivells": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "onada": "2025-04-16",
+        "peak": 2.9026212482639075,
+        "peak_date": "2026-08-23"
+      },
+      "MORPHO ULTIM IMPULS": {
+        "fired": [],
+        "nivells": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "onada": "2026-02-04",
         "peak": 2.9026212482639075,
         "peak_date": "2026-08-23"
       },
@@ -252,56 +321,45 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2026-02-06",
         "peak": 5.38986038977869,
         "peak_date": "2026-09-27"
       },
       "ONDO": {
-        "fired": [
-          20.0,
-          40.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 0.9677914608407864,
-        "peak_date": "2025-10-06"
+        "onada": "2026-06-06",
+        "peak": 0.5877132644435462,
+        "peak_date": "2026-09-27"
       },
       "PENDLE": {
-        "fired": [
-          20.0,
-          40.0,
-          50.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 5.02967472048034,
-        "peak_date": "2025-10-06"
+        "onada": "2026-04-05",
+        "peak": 2.7115199171271476,
+        "peak_date": "2026-09-20"
       },
       "PEPE": {
-        "fired": [
-          20.0,
-          40.0,
-          50.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 1.0215889353374044e-05,
-        "peak_date": "2025-10-06"
+        "onada": "2026-07-01",
+        "peak": 4.977073070817092e-06,
+        "peak_date": "2026-09-22"
       },
       "PUMP": {
         "fired": [],
@@ -311,9 +369,9 @@
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 0.0070777697864017565,
-        "peak_date": "2025-10-02"
+        "onada": "2026-06-26",
+        "peak": 0.005883458862962839,
+        "peak_date": "2026-09-29"
       },
       "QNT": {
         "fired": [],
@@ -323,43 +381,49 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2024-08-06",
         "peak": 286.9166088681043,
         "peak_date": "2026-09-27"
       },
       "RAY": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 3.049869250108373,
-        "peak_date": "2025-10-02"
+        "onada": "2026-02-06",
+        "peak": 2.174274012240133,
+        "peak_date": "2026-09-27"
       },
       "RENDER": {
-        "fired": [
-          20.0,
-          40.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 3.649892542370038,
-        "peak_date": "2025-10-02"
+        "onada": "2026-08-11",
+        "peak": 2.0546660134477794,
+        "peak_date": "2026-09-27"
       },
       "SOL": {
-        "fired": [
+        "fired": [],
+        "nivells": [
           20.0,
-          40.0
+          40.0,
+          50.0,
+          60.0
+        ],
+        "onada": "2026-06-06",
+        "peak": 122.0809849549597,
+        "peak_date": "2026-09-25"
+      },
+      "STONK": {
+        "fired": [
+          20.0
         ],
         "nivells": [
           20.0,
@@ -367,37 +431,45 @@
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 234.78399661993015,
-        "peak_date": "2025-10-02"
+        "onada": "2026-09-14",
+        "peak": 0.36515608881676237,
+        "peak_date": "2026-09-21"
+      },
+      "SYRUP": {
+        "fired": [],
+        "nivells": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "onada": "2026-06-26",
+        "peak": 0.23458784710981007,
+        "peak_date": "2026-09-29"
       },
       "TAO": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 497.7719964647867,
-        "peak_date": "2025-11-01"
+        "onada": "2026-02-06",
+        "peak": 345.70446073674543,
+        "peak_date": "2026-03-25"
       },
       "TRB": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "nivells": [
           20.0,
           40.0,
           50.0,
           60.0
         ],
-        "onada": null,
-        "peak": 34.575448362146545,
-        "peak_date": "2025-10-06"
+        "onada": "2026-02-06",
+        "peak": 23.76712986118982,
+        "peak_date": "2026-04-16"
       },
       "UNI": {
         "fired": [],
@@ -407,7 +479,7 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2026-06-06",
         "peak": 10.218740498650503,
         "peak_date": "2026-09-22"
       },
@@ -419,11 +491,11 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2025-12-08",
         "peak": 31.97664447027006,
         "peak_date": "2026-09-21"
       },
-      "ZEC": {
+      "ZEC CICLE COMPLET": {
         "fired": [],
         "nivells": [
           20.0,
@@ -431,13 +503,25 @@
           50.0,
           60.0
         ],
-        "onada": null,
+        "onada": "2025-04-05",
+        "peak": 1653.1168422981227,
+        "peak_date": "2026-09-26"
+      },
+      "ZEC ULTIM IMPULS": {
+        "fired": [],
+        "nivells": [
+          20.0,
+          40.0,
+          50.0,
+          60.0
+        ],
+        "onada": "2026-09-14",
         "peak": 1653.1168422981227,
         "peak_date": "2026-09-26"
       }
     },
     "ultim_resum": "2026-09-30",
-    "ultima_execucio": "2026-09-30T22:45+00:00"
+    "ultima_execucio": "2026-09-30T23:35+00:00"
   },
   "fast": {
     "avisos_enviats": [],
