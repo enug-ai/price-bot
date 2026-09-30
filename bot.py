@@ -183,7 +183,7 @@ def check_tickers(tokens, markets):
         d = markets.get(tc["id"])
         if d is None:
             warnings.append(f"{ticker}: CoinGecko no troba l'id \"{tc['id']}\"")
-        elif str(d.get("symbol", "")).upper() != ticker:
+        elif str(d.get("symbol", "")).upper() != ticker.split()[0]:
             warnings.append(f"{ticker}: l'id \"{tc['id']}\" correspon a "
                             f"{d.get('name')} ({str(d.get('symbol')).upper()})")
     return warnings
