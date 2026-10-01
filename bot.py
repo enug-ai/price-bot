@@ -365,7 +365,7 @@ def run_daily(tokens, state):
         wave_d = datetime.strptime(wave, "%Y-%m-%d").date() if wave else None
         window = [(d, p) for d, p in highs if wave_d is None or d >= wave_d]
         limited = wave_d is not None and closes[0][0] > wave_d
-        if window:
+        if window and wave_d is not None:   # sense inici_onada: cap seguiment de descomptes
             peak_d, peak_p = max(window, key=lambda x: x[1])
             if live > peak_p:
                 peak_d, peak_p = today, live
