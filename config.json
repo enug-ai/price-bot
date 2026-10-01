@@ -1,7 +1,7 @@
 {
   "_ajuda": [
     "Cada token: \"TICKER\": {\"id\": \"id-de-coingecko\"}. L'id és l'últim tros de l'enllaç de CoinGecko.",
-    "inici_onada: data (AAAA-MM-DD) de la base de la pujada. Sense data: màxim dels últims 12 mesos.",
+    "inici_onada: data (AAAA-MM-DD) de la base de la pujada. Sense data: només objectius, sense avisos de descompte.",
     "descomptes: % de caiguda des del màxim de l'onada (tancament diari). Sense: descomptes_per_defecte.",
     "compra / venda: llista de preus objectiu. tipus = toc (al moment), diari o setmanal (per tancament).",
     "Les claus que comencen per _ s'ignoren. Mira _EXEMPLE per veure-ho tot junt."
