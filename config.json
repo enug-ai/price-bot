@@ -19,6 +19,7 @@
     },
 
     "BTC": {"id": "bitcoin", "inici_onada": "2026-07-01", "venda": [{"preu": 134943, "tipus": "setmanal"}, {"preu": 279716, "tipus": "setmanal"}, {"preu": 556464, "tipus": "setmanal"}, {"preu": 726029, "tipus": "setmanal"}]},
+    "BTC SELL ALERT": {"id": "bitcoin", "venda":  [ {"preu": 87000, "tipus": "toc"}, {"preu": 89000, "tipus": "toc"}, {"preu":92000, "tipus": "toc"}]},
     "ETH": {"id": "ethereum", "inici_onada": "2026-06-06", "venda": [{"preu": 4868, "tipus": "setmanal"}, {"preu": 5996, "tipus": "setmanal"}, {"preu": 7822, "tipus": "setmanal"}, {"preu": 12602, "tipus": "setmanal"}, {"preu": 20361, "tipus": "setmanal"}, {"preu": 40709, "tipus": "setmanal"}, {"preu": 53177, "tipus": "setmanal"}]},
     "SOL": {"id": "solana", "inici_onada": "2026-06-06"},
     "LINK": {"id": "chainlink", "inici_onada": "2026-06-06"},
