@@ -399,7 +399,9 @@
         "peak_date": "2026-10-01"
       },
       "QNT": {
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "metode": "metxa-toc",
         "nivells": [
           20.0,
