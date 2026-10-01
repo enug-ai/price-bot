@@ -21,7 +21,7 @@
     "BTC (ona 1)": {"id": "bitcoin", "inici_onada": "2026-07-01", "venda": [{"preu": 134943, "tipus": "setmanal"}, {"preu": 279716, "tipus": "setmanal"}, {"preu": 556464, "tipus": "setmanal"}, {"preu": 726029, "tipus": "setmanal"}]},
     "BTC ALERTS": {"id": "bitcoin", "compra": [ {"preu": 83000, "tipus": "toc"}, {"preu": 82000, "tipus": "toc"}, {"preu": 81000, "tipus": "toc"}], "venda":  [ {"preu": 87000, "tipus": "toc"}, {"preu": 89000, "tipus": "toc"}, {"preu":92000, "tipus": "toc"}]},
     "ETH (ona 1)": {"id": "ethereum", "inici_onada": "2026-06-06", "venda": [{"preu": 4868, "tipus": "setmanal"}, {"preu": 5996, "tipus": "setmanal"}, {"preu": 7822, "tipus": "setmanal"}, {"preu": 12602, "tipus": "setmanal"}, {"preu": 20361, "tipus": "setmanal"}, {"preu": 40709, "tipus": "setmanal"}, {"preu": 53177, "tipus": "setmanal"}]},
-    "SOL": {"id": "solana", "inici_onada": "2026-06-06"},
+    "SOL (ona 1)": {"id": "solana", "inici_onada": "2026-06-06"},
     "LINK": {"id": "chainlink", "inici_onada": "2026-06-06"},
     "AAVE": {"id": "aave", "inici_onada": "2026-06-06"},
     "NEAR": {"id": "near", "inici_onada": "2026-02-06", "venda": [{"preu": 6.45, "tipus": "diari"}, {"preu": 6.88, "tipus": "setmanal"}, {"preu": 7.57, "tipus": "diari"}, {"preu": 8.7, "tipus": "diari"}, {"preu": 10.53, "tipus": "setmanal"}, {"preu": 16.44, "tipus": "setmanal"}, {"preu": 31.97, "tipus": "setmanal"}, {"preu": 41.49, "tipus": "setmanal"}]},
