@@ -249,7 +249,9 @@
         "peak_date": "2026-09-26"
       },
       "KNTQ": {
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "metode": "metxa-toc",
         "nivells": [
           20.0,
@@ -454,7 +456,8 @@
       },
       "STONK": {
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "metode": "metxa-toc",
         "nivells": [
