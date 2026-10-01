@@ -171,7 +171,9 @@
         "peak_date": "2026-09-30"
       },
       "DRV": {
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "metode": "metxa-toc",
         "nivells": [
           20.0,
