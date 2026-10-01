@@ -418,7 +418,9 @@
         "peak_date": "2026-09-27"
       },
       "RAY": {
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "metode": "metxa-toc",
         "nivells": [
           20.0,
