@@ -54,5 +54,5 @@
     "VVV": {"id": "venice-token", "inici_onada": "2025-12-08"},
     "BP": {"id": "backpack", "inici_onada": "2026-05-26"},
     "KMNO": {"id": "kamino", "inici_onada": "2026-06-06"}
-  }
+    "GOLD": {"id": "pax-gold", "inici_onada": "2022-10-17", "compra": [ {"preu": 3500, "tipus": "toc"} ], "venda":  [ {"preu": 4885, "tipus": "toc"},
 }
