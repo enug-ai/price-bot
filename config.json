@@ -37,7 +37,7 @@
     "TAO": {"id": "bittensor", "inici_onada": "2026-02-06"},
     "INJ": {"id": "injective-protocol", "inici_onada": "2026-02-06"},
     "UNI": {"id": "uniswap", "inici_onada": "2026-06-06"},
-    "PENDLE": {"id": "pendle", "inici_onada": "2026-04-05"},
+    "PENDLE (ona 3)": {"id": "pendle", "inici_onada": "2026-06-06"},
     "AERO": {"id": "aerodrome-finance", "inici_onada": "2026-02-11"},
     "SYRUP": {"id": "syrup", "inici_onada": "2026-06-26"},
     "ZEC": {"id": "zcash", "inici_onada": "2025-04-05"},
