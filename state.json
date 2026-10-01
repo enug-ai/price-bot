@@ -452,8 +452,7 @@
       },
       "STONK": {
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "metode": "metxa-toc",
         "nivells": [
