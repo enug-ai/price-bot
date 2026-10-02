@@ -508,13 +508,10 @@
       },
       "stonk-3": {
         "fired": [
-          20.0,
-          40.0,
-          50.0,
-          60.0
+          20.0
         ],
         "manual_actiu": true,
-        "maxim": 40.0,
+        "maxim": 0.4,
         "metode": "v3",
         "nivells": [
           20.0,
@@ -522,7 +519,7 @@
           50.0,
           60.0
         ],
-        "peak": 40.0,
+        "peak": 0.4,
         "peak_date": "2026-09-21"
       },
       "syrup": {
@@ -1154,7 +1151,7 @@
       }
     },
     "ultim_resum": "2026-10-02",
-    "ultima_execucio": "2026-10-02T00:44+00:00"
+    "ultima_execucio": "2026-10-02T01:29+00:00"
   },
   "fast": {
     "avisos_enviats": [],
