@@ -23,7 +23,7 @@
     },
 
     "BTC (1)": {"id": "bitcoin", "maxim": 126219, "data_maxim": "2025-10-06", "inici_onada": "2026-07-01", "venda": [{"preu": 134943, "tipus": "setmanal"}, {"preu": 279716, "tipus": "setmanal"}, {"preu": 556464, "tipus": "setmanal"}, {"preu": 726029, "tipus": "setmanal"}]},
-    "BTC ALERTS": {"id": "bitcoin", "compra": [ {"preu": 83000, "tipus": "toc"}, {"preu": 82000, "tipus": "toc"}, {"preu": 81000, "tipus": "toc"}], "venda":  [ {"preu": 87000, "tipus": "toc"}, {"preu": 89000, "tipus": "toc"}, {"preu":92000, "tipus": "toc"}]},
+    "BTC ALERTS": {"id": "bitcoin", "venda":  [ {"preu": 87000, "tipus": "toc"}, {"preu": 89000, "tipus": "toc"}, {"preu": 90000, "tipus": "toc"}, {"preu":92000, "tipus": "toc"}]},
     "ETH (1)": {"id": "ethereum", "maxim": 4956, "data_maxim": "2025-08-24", "inici_onada": "2026-06-06", "venda": [{"preu": 4868, "tipus": "setmanal"}, {"preu": 5996, "tipus": "setmanal"}, {"preu": 7822, "tipus": "setmanal"}, {"preu": 12602, "tipus": "setmanal"}, {"preu": 20361, "tipus": "setmanal"}, {"preu": 40709, "tipus": "setmanal"}, {"preu": 53177, "tipus": "setmanal"}]},
     "SOL (1)": {"id": "solana", "maxim": 295.11, "data_maxim": "2025-01-19", "inici_onada": "2026-06-06", "venda":  [ {"preu": 277, "tipus": "setmanal"}, {"preu": 486, "tipus": "setmanal"}, {"preu": 635, "tipus": "setmanal"}]},
     "LINK": {"id": "chainlink", "maxim": 30.92, "data_maxim": "2024-12-13", "inici_onada": "2026-06-06"},
