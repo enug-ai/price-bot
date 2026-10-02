@@ -1,27 +1,31 @@
 {
   "_ajuda": [
     "Cada token: \"TICKER\": {\"id\": \"id-de-coingecko\"}. L'id és l'últim tros de l'enllaç de CoinGecko.",
-    "inici_onada: data (AAAA-MM-DD) de la base de la pujada. Sense data: només objectius, sense avisos de descompte.",
-    "descomptes: % de caiguda des del màxim de l'onada (tancament diari). Sense: descomptes_per_defecte.",
+    "CAIGUDA (macro, una per token): % des del màxim dels últims 12 mesos. maxim / data_maxim (opcionals): màxim posat a mà, s'usa si és més alt.",
+    "RETROCÉS (micro, una per entrada): inici_onada = dia de la base de l'onada (dels últims 12 mesos). Mesura el % de la pujada que s'ha desfet.",
+    "Nivells per token (opcionals): caigudes [..] i retrocessos [..]. caigudes [] desactiva la caiguda d'aquell token.",
     "compra / venda: llista de preus objectiu. tipus = toc (al moment), diari o setmanal (per tancament).",
     "Les claus que comencen per _ s'ignoren. Mira _EXEMPLE per veure-ho tot junt."
   ],
 
-  "descomptes_per_defecte": [20, 40, 50, 60],
+  "caigudes_per_defecte": [20, 40, 50, 60],
+  "retrocessos_per_defecte": [20, 40, 50, 60],
 
   "tokens": {
     "_EXEMPLE": {
-      "id": "aave",
-      "inici_onada": "2025-04-07",
-      "descomptes": [25, 40, 60],
-      "compra": [ {"preu": 150, "tipus": "toc"} ],
-      "venda":  [ {"preu": 500, "tipus": "setmanal"}, {"preu": 420, "tipus": "diari"} ]
+      "id": "solana",
+      "maxim": 295.11, "data_maxim": "2025-01-19",
+      "inici_onada": "2026-06-06",
+      "caigudes": [20, 40, 50, 60],
+      "retrocessos": [38.2, 50, 61.8],
+      "compra": [ {"preu": 120, "tipus": "toc"} ],
+      "venda":  [ {"preu": 277, "tipus": "setmanal"}, {"preu": 250, "tipus": "diari"} ]
     },
 
     "BTC (1)": {"id": "bitcoin", "inici_onada": "2026-07-01", "venda": [{"preu": 134943, "tipus": "setmanal"}, {"preu": 279716, "tipus": "setmanal"}, {"preu": 556464, "tipus": "setmanal"}, {"preu": 726029, "tipus": "setmanal"}]},
     "BTC ALERTS": {"id": "bitcoin", "compra": [ {"preu": 83000, "tipus": "toc"}, {"preu": 82000, "tipus": "toc"}, {"preu": 81000, "tipus": "toc"}], "venda":  [ {"preu": 87000, "tipus": "toc"}, {"preu": 89000, "tipus": "toc"}, {"preu":92000, "tipus": "toc"}]},
     "ETH (1)": {"id": "ethereum", "inici_onada": "2026-06-06", "venda": [{"preu": 4868, "tipus": "setmanal"}, {"preu": 5996, "tipus": "setmanal"}, {"preu": 7822, "tipus": "setmanal"}, {"preu": 12602, "tipus": "setmanal"}, {"preu": 20361, "tipus": "setmanal"}, {"preu": 40709, "tipus": "setmanal"}, {"preu": 53177, "tipus": "setmanal"}]},
-    "SOL (1)": {"id": "solana", "inici_onada": "2026-06-06", "venda":  [ {"preu": 277, "tipus": "setmanal"}, {"preu": 486, "tipus": "setmanal"}, {"preu": 635, "tipus": "setmanal"}]},
+    "SOL (1)": {"id": "solana", "maxim": 295.11, "data_maxim": "2025-01-19", "inici_onada": "2026-06-06", "venda":  [ {"preu": 277, "tipus": "setmanal"}, {"preu": 486, "tipus": "setmanal"}, {"preu": 635, "tipus": "setmanal"}]},
     "LINK": {"id": "chainlink", "inici_onada": "2026-06-06"},
     "AAVE": {"id": "aave", "inici_onada": "2026-06-06"},
     "NEAR": {"id": "near", "inici_onada": "2026-02-06", "venda": [{"preu": 6.45, "tipus": "diari"}, {"preu": 6.88, "tipus": "setmanal"}, {"preu": 7.57, "tipus": "diari"}, {"preu": 8.7, "tipus": "diari"}, {"preu": 10.53, "tipus": "setmanal"}, {"preu": 16.44, "tipus": "setmanal"}, {"preu": 31.97, "tipus": "setmanal"}, {"preu": 41.49, "tipus": "setmanal"}]},
@@ -30,29 +34,29 @@
     "COMP": {"id": "compound-governance-token", "inici_onada": "2026-02-06"},
     "TRB": {"id": "tellor", "inici_onada": "2026-02-06"},
     "AVAX": {"id": "avalanche-2", "inici_onada": "2026-06-19"},
-    "HYPE (5)": {"id": "hyperliquid", "inici_onada": "2025-04-07", "venda":  [ {"preu": 140, "tipus": "setmanal"}, {"preu": 221, "tipus": "setmanal"}, {"preu": 434, "tipus": "setmanal"}, {"preu": 565, "tipus": "setmanal"}]},
+    "HYPE (5)": {"id": "hyperliquid", "venda":  [ {"preu": 140, "tipus": "setmanal"}, {"preu": 221, "tipus": "setmanal"}, {"preu": 434, "tipus": "setmanal"}, {"preu": 565, "tipus": "setmanal"}]},
     "PEPE": {"id": "pepe", "inici_onada": "2026-07-01"},
     "STONK": {"id": "stonk-3", "inici_onada": "2026-08-19"},
-    "QNT": {"id": "quant-network", "inici_onada": "2024-08-06"},
+    "QNT": {"id": "quant-network"},
     "TAO": {"id": "bittensor", "inici_onada": "2026-02-06"},
     "INJ": {"id": "injective-protocol", "inici_onada": "2026-02-06"},
     "UNI": {"id": "uniswap", "inici_onada": "2026-06-06"},
     "PENDLE (ona 3)": {"id": "pendle", "inici_onada": "2026-06-06"},
     "AERO": {"id": "aerodrome-finance", "inici_onada": "2026-02-11"},
     "SYRUP": {"id": "syrup", "inici_onada": "2026-06-26"},
-    "ZEC": {"id": "zcash", "inici_onada": "2025-04-05"},
+    "ZEC": {"id": "zcash"},
     "PUMP": {"id": "pump-fun", "inici_onada": "2026-06-26"},
-    "MORPHO": {"id": "morpho", "inici_onada": "2025-04-16"},
+    "MORPHO": {"id": "morpho"},
     "LIT": {"id": "lighter", "inici_onada": "2026-04-01"},
     "RAY": {"id": "raydium", "inici_onada": "2026-02-06"},
-    "DRV": {"id": "derive", "inici_onada": "2025-04-07"},
+    "DRV": {"id": "derive"},
     "KNTQ": {"id": "kinetiq", "inici_onada": "2025-12-18"},
     "META": {"id": "meta-2", "inici_onada": "2026-04-02"},
     "BNB": {"id": "binancecoin", "inici_onada": "2026-07-01"},
     "VVV": {"id": "venice-token", "inici_onada": "2025-12-08"},
     "BP": {"id": "backpack", "inici_onada": "2026-05-26"},
     "KMNO": {"id": "kamino", "inici_onada": "2026-06-06"},
-    "PAXG": {"id": "pax-gold", "inici_onada": "2022-10-17", "compra": [ {"preu": 3500, "tipus": "toc"} ], "venda":  [ {"preu": 4885, "tipus": "toc"}]},
-    "SPYX": {"id": "sp500-xstock", "inici_onada": "2020-03-23"}
+    "PAXG": {"id": "pax-gold", "compra": [ {"preu": 3500, "tipus": "toc"} ], "venda":  [ {"preu": 4885, "tipus": "toc"}]},
+    "SPYX": {"id": "sp500-xstock"}
   }
 }
