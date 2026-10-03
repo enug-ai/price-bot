@@ -406,8 +406,7 @@
       },
       "pump-fun": {
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "manual_actiu": true,
         "maxim": 0.008999,
@@ -910,9 +909,7 @@
       },
       "RAY": {
         "base": 0.6829246681651183,
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "metode": "v3",
         "nivells": [
           20.0,
