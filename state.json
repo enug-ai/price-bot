@@ -624,7 +624,7 @@
           60.0
         ],
         "onada": "2026-06-06",
-        "peak": 186.03,
+        "peak": 186.32512915399764,
         "peak_date": "2026-10-02"
       },
       "AERO": {
@@ -1129,7 +1129,7 @@
         "fired": false
       },
       "NEAR|venda|6.45|diari": {
-        "eval": "2026-10-01",
+        "eval": "2026-10-02",
         "fired": false
       },
       "NEAR|venda|6.88|setmanal": {
@@ -1137,11 +1137,11 @@
         "fired": false
       },
       "NEAR|venda|7.57|diari": {
-        "eval": "2026-10-01",
+        "eval": "2026-10-02",
         "fired": false
       },
       "NEAR|venda|8.7|diari": {
-        "eval": "2026-10-01",
+        "eval": "2026-10-02",
         "fired": false
       },
       "SOL (1)|venda|277.0|setmanal": {
@@ -1158,7 +1158,7 @@
       }
     },
     "ultim_resum": "2026-10-02",
-    "ultima_execucio": "2026-10-02T01:29+00:00"
+    "ultima_execucio": "2026-10-03T01:27+00:00"
   },
   "fast": {
     "avisos_enviats": [],
