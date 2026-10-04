@@ -582,9 +582,7 @@
         "peak_date": "2024-12-08"
       },
       "venice-token": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "manual_actiu": true,
         "maxim": 34.57,
         "metode": "v3",
@@ -1029,9 +1027,7 @@
       },
       "VVV": {
         "base": 1.0897401819785757,
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "metode": "v3",
         "nivells": [
           20.0,
@@ -1155,8 +1151,6 @@
   },
   "fast": {
     "avisos_enviats": [],
-    "toc": {
-      "STONK|venda|0.206|toc": "2026-10-04T18:05+00:00"
-    }
+    "toc": {}
   }
 }
