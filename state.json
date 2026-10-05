@@ -855,9 +855,7 @@
       },
       "PENDLE (ONA 3)": {
         "base": 1.2194078173300678,
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "metode": "v3",
         "nivells": [
           20.0,
