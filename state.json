@@ -510,11 +510,10 @@
       "stonk-3": {
         "fired": [
           20.0,
-          40.0,
-          50.0
+          40.0
         ],
-        "manual_actiu": true,
-        "maxim": 0.4,
+        "manual_actiu": false,
+        "maxim": null,
         "metode": "v3",
         "nivells": [
           20.0,
@@ -522,7 +521,7 @@
           50.0,
           60.0
         ],
-        "peak": 0.4,
+        "peak": 0.39027842410448726,
         "peak_date": "2026-09-21"
       },
       "syrup": {
@@ -898,7 +897,7 @@
           60.0
         ],
         "onada": "2026-06-26",
-        "peak": 0.00660663,
+        "peak": 0.006709728442198802,
         "peak_date": "2026-10-04"
       },
       "RAY": {
@@ -943,24 +942,6 @@
         "peak": 124.42009566018508,
         "peak_date": "2026-09-27"
       },
-      "STONK": {
-        "base": 0.004139036382595614,
-        "fired": [
-          20.0,
-          40.0,
-          50.0
-        ],
-        "metode": "v3",
-        "nivells": [
-          20.0,
-          40.0,
-          50.0,
-          60.0
-        ],
-        "onada": "2026-08-19",
-        "peak": 0.39027842410448726,
-        "peak_date": "2026-09-21"
-      },
       "SYRUP": {
         "base": 0.12127959563928412,
         "fired": [],
@@ -972,8 +953,8 @@
           60.0
         ],
         "onada": "2026-06-26",
-        "peak": 0.261973,
-        "peak_date": "2026-10-05"
+        "peak": 0.2634557057157356,
+        "peak_date": "2026-10-04"
       },
       "TAO": {
         "base": 175.9895060868291,
@@ -1040,112 +1021,116 @@
     },
     "tancaments": {
       "BTC (1)|venda|134943.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "BTC (1)|venda|279716.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "BTC (1)|venda|556464.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "BTC (1)|venda|726029.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "ETH (1)|venda|12602.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "ETH (1)|venda|20361.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "ETH (1)|venda|40709.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "ETH (1)|venda|4868.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "ETH (1)|venda|53177.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "ETH (1)|venda|5996.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "ETH (1)|venda|7822.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "HYPE (5)|venda|140.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "HYPE (5)|venda|221.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "HYPE (5)|venda|434.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "HYPE (5)|venda|565.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|10.53|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|16.44|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|31.97|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|41.49|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|6.45|diari": {
-        "eval": "2026-10-03",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|6.88|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|7.57|diari": {
-        "eval": "2026-10-03",
+        "eval": "2026-10-04",
         "fired": false
       },
       "NEAR|venda|8.7|diari": {
-        "eval": "2026-10-03",
+        "eval": "2026-10-04",
         "fired": false
       },
       "SOL (1)|venda|277.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "SOL (1)|venda|486.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
         "fired": false
       },
       "SOL (1)|venda|635.0|setmanal": {
-        "eval": "2026-09-27",
+        "eval": "2026-10-04",
+        "fired": false
+      },
+      "STONK|venda|0.43|diari": {
+        "eval": "2026-10-04",
         "fired": false
       }
     },
-    "ultim_resum": "2026-10-02",
-    "ultima_execucio": "2026-10-04T04:03+00:00"
+    "ultim_resum": "2026-10-05",
+    "ultima_execucio": "2026-10-05T01:28+00:00"
   },
   "fast": {
     "avisos_enviats": [],
