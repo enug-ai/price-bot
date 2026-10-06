@@ -495,7 +495,7 @@
       },
       "sp500-xstock": {
         "fired": [],
-        "manual_actiu": true,
+        "manual_actiu": false,
         "maxim": 783.29,
         "metode": "v3",
         "nivells": [
@@ -504,8 +504,8 @@
           50.0,
           60.0
         ],
-        "peak": 783.29,
-        "peak_date": "2026-08-13"
+        "peak": 783.86,
+        "peak_date": "2026-10-06"
       },
       "stonk-3": {
         "fired": [
