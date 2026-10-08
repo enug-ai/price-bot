@@ -252,7 +252,8 @@
       },
       "kinetiq": {
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "manual_actiu": true,
         "maxim": 0.4575,
@@ -954,7 +955,8 @@
       "RENDER": {
         "base": 1.2346950656436513,
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "metode": "v3",
         "nivells": [
