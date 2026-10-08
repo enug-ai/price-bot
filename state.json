@@ -59,8 +59,7 @@
       },
       "backpack": {
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "manual_actiu": true,
         "maxim": 1.648,
@@ -164,9 +163,7 @@
         "peak_date": "2024-12-04"
       },
       "derive": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "manual_actiu": true,
         "maxim": 0.5119,
         "metode": "v3",
