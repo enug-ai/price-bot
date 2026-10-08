@@ -59,8 +59,7 @@
       },
       "backpack": {
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "manual_actiu": true,
         "maxim": 1.648,
