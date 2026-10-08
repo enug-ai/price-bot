@@ -59,7 +59,8 @@
       },
       "backpack": {
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "manual_actiu": true,
         "maxim": 1.648,
@@ -129,7 +130,8 @@
         "fired": [
           20.0,
           40.0,
-          50.0
+          50.0,
+          60.0
         ],
         "manual_actiu": true,
         "maxim": 30.92,
@@ -163,7 +165,9 @@
         "peak_date": "2024-12-04"
       },
       "derive": {
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "manual_actiu": true,
         "maxim": 0.5119,
         "metode": "v3",
@@ -715,7 +719,8 @@
       "COMP": {
         "base": 17.43360644829334,
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "metode": "v3",
         "nivells": [
@@ -763,7 +768,8 @@
       "KMNO": {
         "base": 0.014365874331121258,
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "metode": "v3",
         "nivells": [
@@ -847,7 +853,9 @@
       },
       "NEAR": {
         "base": 1.059360878018064,
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "metode": "v3",
         "nivells": [
           20.0,
@@ -898,7 +906,8 @@
         "base": 2.322911536530992e-06,
         "fired": [
           20.0,
-          40.0
+          40.0,
+          50.0
         ],
         "metode": "v3",
         "nivells": [
