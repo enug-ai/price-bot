@@ -165,9 +165,7 @@
         "peak_date": "2024-12-04"
       },
       "derive": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "manual_actiu": true,
         "maxim": 0.5119,
         "metode": "v3",
@@ -724,8 +722,7 @@
       "COMP": {
         "base": 17.43360644829334,
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "metode": "v3",
         "nivells": [
@@ -807,8 +804,7 @@
       "LINK": {
         "base": 7.361053837853775,
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "metode": "v3",
         "nivells": [
