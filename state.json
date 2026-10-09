@@ -319,8 +319,7 @@
       "near": {
         "fired": [
           20.0,
-          40.0,
-          50.0
+          40.0
         ],
         "manual_actiu": true,
         "maxim": 9.0,
@@ -849,9 +848,7 @@
       },
       "NEAR": {
         "base": 1.059360878018064,
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "metode": "v3",
         "nivells": [
           20.0,
