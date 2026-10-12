@@ -622,7 +622,9 @@
     "ones": {
       "AAVE": {
         "base": 60.93207129202708,
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "metode": "v3",
         "nivells": [
           20.0,
