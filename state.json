@@ -255,7 +255,7 @@
       },
       "kinetiq": {
         "fired": [],
-        "manual_actiu": true,
+        "manual_actiu": false,
         "maxim": 0.4575,
         "metode": "v3",
         "nivells": [
@@ -264,8 +264,8 @@
           50.0,
           60.0
         ],
-        "peak": 0.4575,
-        "peak_date": "2026-10-01"
+        "peak": 0.459237,
+        "peak_date": "2026-10-28"
       },
       "lighter": {
         "fired": [
@@ -807,7 +807,7 @@
           60.0
         ],
         "onada": "2025-12-18",
-        "peak": 0.453915,
+        "peak": 0.459237,
         "peak_date": "2026-10-28"
       },
       "LINK": {
