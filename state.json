@@ -940,7 +940,7 @@
           60.0
         ],
         "onada": "2026-07-01",
-        "peak": 5.44e-06,
+        "peak": 5.492579761557519e-06,
         "peak_date": "2026-10-29"
       },
       "PUMP": {
@@ -1185,7 +1185,7 @@
         "fired": false
       },
       "NEAR|venda|6.45|diari": {
-        "eval": "2026-10-28",
+        "eval": "2026-10-29",
         "fired": false
       },
       "NEAR|venda|6.88|setmanal": {
@@ -1193,11 +1193,11 @@
         "fired": false
       },
       "NEAR|venda|7.57|diari": {
-        "eval": "2026-10-28",
+        "eval": "2026-10-29",
         "fired": false
       },
       "NEAR|venda|8.7|diari": {
-        "eval": "2026-10-28",
+        "eval": "2026-10-29",
         "fired": false
       },
       "SOL (1)|venda|277.0|setmanal": {
@@ -1213,12 +1213,12 @@
         "fired": false
       },
       "STONK|venda|0.43|diari": {
-        "eval": "2026-10-28",
+        "eval": "2026-10-29",
         "fired": false
       }
     },
     "ultim_resum": "2026-10-26",
-    "ultima_execucio": "2026-10-29T02:01+00:00"
+    "ultima_execucio": "2026-10-30T02:03+00:00"
   },
   "fast": {
     "avisos_enviats": [],
