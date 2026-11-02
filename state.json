@@ -431,8 +431,7 @@
       "quant-network": {
         "fired": [
           20.0,
-          40.0,
-          50.0
+          40.0
         ],
         "manual_actiu": true,
         "maxim": 368.71,
@@ -925,7 +924,9 @@
       },
       "PEPE": {
         "base": 2.322911536530992e-06,
-        "fired": [],
+        "fired": [
+          20.0
+        ],
         "metode": "v3",
         "nivells": [
           20.0,
