@@ -257,9 +257,7 @@
         "peak_date": "2024-12-15"
       },
       "kinetiq": {
-        "fired": [
-          20.0
-        ],
+        "fired": [],
         "manual_actiu": false,
         "maxim": 0.4575,
         "metode": "v3",
