@@ -989,7 +989,7 @@
         "peak_date": "2026-10-07"
       },
       "RENDER": {
-        "base": 1.2346950656436513,
+        "base": 1.25893803703856,
         "fired": [
           20.0,
           40.0,
@@ -1196,7 +1196,7 @@
         "fired": false
       },
       "NEAR|venda|6.45|diari": {
-        "eval": "2026-11-08",
+        "eval": "2026-11-09",
         "fired": false
       },
       "NEAR|venda|6.88|setmanal": {
@@ -1204,11 +1204,11 @@
         "fired": false
       },
       "NEAR|venda|7.57|diari": {
-        "eval": "2026-11-08",
+        "eval": "2026-11-09",
         "fired": false
       },
       "NEAR|venda|8.7|diari": {
-        "eval": "2026-11-08",
+        "eval": "2026-11-09",
         "fired": false
       },
       "SOL (1)|venda|277.0|setmanal": {
@@ -1224,12 +1224,12 @@
         "fired": false
       },
       "STONK|venda|0.43|diari": {
-        "eval": "2026-11-08",
+        "eval": "2026-11-09",
         "fired": false
       }
     },
     "ultim_resum": "2026-11-09",
-    "ultima_execucio": "2026-11-09T07:57+00:00"
+    "ultima_execucio": "2026-11-10T08:25+00:00"
   },
   "fast": {
     "avisos_enviats": [],
