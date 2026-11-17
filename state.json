@@ -666,7 +666,7 @@
         "peak_date": "2026-10-02"
       },
       "AERO": {
-        "base": 0.301833813744734,
+        "base": 0.2810223275851723,
         "fired": [
           20.0,
           40.0,
@@ -1076,7 +1076,7 @@
         "peak_date": "2026-10-13"
       },
       "TAO": {
-        "base": 175.9895060868291,
+        "base": 160.83265955187744,
         "fired": [
           20.0,
           40.0,
@@ -1228,7 +1228,7 @@
         "fired": false
       },
       "NEAR|venda|6.45|diari": {
-        "eval": "2026-11-15",
+        "eval": "2026-11-16",
         "fired": false
       },
       "NEAR|venda|6.88|setmanal": {
@@ -1236,11 +1236,11 @@
         "fired": false
       },
       "NEAR|venda|7.57|diari": {
-        "eval": "2026-11-15",
+        "eval": "2026-11-16",
         "fired": false
       },
       "NEAR|venda|8.7|diari": {
-        "eval": "2026-11-15",
+        "eval": "2026-11-16",
         "fired": false
       },
       "SOL (1)|venda|277.0|setmanal": {
@@ -1256,12 +1256,12 @@
         "fired": false
       },
       "STONK|venda|0.43|diari": {
-        "eval": "2026-11-15",
+        "eval": "2026-11-16",
         "fired": false
       }
     },
     "ultim_resum": "2026-11-16",
-    "ultima_execucio": "2026-11-16T07:59+00:00"
+    "ultima_execucio": "2026-11-17T09:12+00:00"
   },
   "fast": {
     "avisos_enviats": [],
