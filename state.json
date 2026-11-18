@@ -96,7 +96,8 @@
       "bitcoin": {
         "fired": [
           20.0,
-          40.0
+          40.0,
+          50.0
         ],
         "manual_actiu": true,
         "maxim": 126219.0,
