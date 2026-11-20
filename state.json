@@ -61,7 +61,8 @@
       "backpack": {
         "fired": [
           20.0,
-          40.0
+          40.0,
+          50.0
         ],
         "manual_actiu": true,
         "maxim": 1.648,
@@ -613,7 +614,8 @@
       },
       "venice-token": {
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "manual_actiu": true,
         "maxim": 34.57,
@@ -630,7 +632,8 @@
       "zcash": {
         "fired": [
           20.0,
-          40.0
+          40.0,
+          50.0
         ],
         "manual_actiu": true,
         "maxim": 1691.84,
@@ -914,7 +917,8 @@
         "fired": [
           20.0,
           40.0,
-          50.0
+          50.0,
+          60.0
         ],
         "metode": "v3",
         "nivells": [
