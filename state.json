@@ -173,8 +173,7 @@
       "derive": {
         "fired": [
           20.0,
-          40.0,
-          50.0
+          40.0
         ],
         "manual_actiu": false,
         "maxim": 0.5119,
@@ -616,8 +615,7 @@
       },
       "venice-token": {
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "manual_actiu": true,
         "maxim": 34.57,
@@ -1146,8 +1144,7 @@
       "VVV": {
         "base": 1.0897401819785757,
         "fired": [
-          20.0,
-          40.0
+          20.0
         ],
         "metode": "v3",
         "nivells": [
