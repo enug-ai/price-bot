@@ -209,7 +209,8 @@
       },
       "hyperliquid": {
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "manual_actiu": true,
         "maxim": 98.0,
@@ -805,7 +806,8 @@
         "base": 2.9816095033747474,
         "fired": [
           20.0,
-          40.0
+          40.0,
+          50.0
         ],
         "metode": "v3",
         "nivells": [
