@@ -171,7 +171,8 @@
       },
       "derive": {
         "fired": [
-          20.0
+          20.0,
+          40.0
         ],
         "manual_actiu": false,
         "maxim": 0.5119,
