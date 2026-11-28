@@ -1233,7 +1233,7 @@
         "fired": false
       },
       "NEAR|venda|6.45|diari": {
-        "eval": "2026-11-26",
+        "eval": "2026-11-27",
         "fired": false
       },
       "NEAR|venda|6.88|setmanal": {
@@ -1241,11 +1241,11 @@
         "fired": false
       },
       "NEAR|venda|7.57|diari": {
-        "eval": "2026-11-26",
+        "eval": "2026-11-27",
         "fired": false
       },
       "NEAR|venda|8.7|diari": {
-        "eval": "2026-11-26",
+        "eval": "2026-11-27",
         "fired": false
       },
       "SOL (1)|venda|277.0|setmanal": {
@@ -1261,12 +1261,12 @@
         "fired": false
       },
       "STONK|venda|0.43|diari": {
-        "eval": "2026-11-26",
+        "eval": "2026-11-27",
         "fired": false
       }
     },
     "ultim_resum": "2026-11-23",
-    "ultima_execucio": "2026-11-27T09:41+00:00"
+    "ultima_execucio": "2026-11-28T08:55+00:00"
   },
   "fast": {
     "avisos_enviats": [],
